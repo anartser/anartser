@@ -154,7 +154,7 @@ function autoDrawing(){
 
 	if (!ckeckFreeSpace()) {
 		
-		win_text.innerHTML = "Выиграла ничья! ";
+		win_text.innerHTML = "Ничья!";
 		win_text.style.color = "blue";
 		winning.style.display = "block";
 		winning.style.backgroundColor = "rgba(0,0,200, 0.5)";
